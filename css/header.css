@@ -1,0 +1,145 @@
+body{
+    font-family: "Raleway", verdana, sans-serif;
+}
+
+main {
+    background-color: #FFF;
+    padding: 35px 35px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+/*Menu*/
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inscription {
+    display: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+#inscription a {
+    color:#0065FC;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+nav ul li:nth-child(3) {
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* menu animation */
+
+nav ul li a:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 40px;
+    color:#0065FC;
+}
+
+/* recherche ville*/
+
+#recherche h1 {
+    margin-bottom: -5px;
+}
+
+#recherche_ville {
+    display: flex;
+    height: 50px;
+    width: 420px;
+    border-radius: 15px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#bouton {
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    height: 70%;
+    width: 135px;
+    color: white;
+    font-size: 1em;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#logo_search {
+    display: none;
+}
+
+/* animation bouton */ 
+
+#bouton:hover {
+    cursor:pointer;
+    background-color: #DEEBFF;
+    color: black;
+}
+
+#bouton:active { 
+    cursor: pointer;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    font-weight: bold;
+    border: 1px solid #0065FC;
+}
+
+input {
+    height: 93%;
+    width: 230px;
+    color: black;
+    font-size: 1em;
+    border: 0.5px solid #FFF;
+}
+
+input:focus {
+    outline: none;
+}
+
+.fa-map-marker-alt {
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    height: 70%;
+    width: 52px;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 15px;
+}
