@@ -134,7 +134,40 @@
 }
 
 
+@media screen and (max-width:480px) {
+    
+    .populaires{
+        flex-wrap: wrap;
+    }
 
+    #hebergements {
+        width: auto;
+    }
+
+    .hebergements h4 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .fa-chart-line {
+        margin-left: 60px;
+    }
+
+    .populaires .hotel {
+        width: auto;
+    }
+
+    .hebergements .hotel img {
+        width: 100%;
+    }
+
+    .activites .hotel img {
+        width: auto;
+    }
+}
 
 
 
