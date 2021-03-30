@@ -1,12 +1,10 @@
 body{
     font-family: "Raleway", verdana, sans-serif;
+    padding: 35px 35px;
+    background-color: #FFF;
 }
 
-main {
-    background-color: #FFF;
-    padding: 35px 35px;
-    box-sizing: border-box;
-}
+
 
 h1 {
     font-size: 1.4em;
