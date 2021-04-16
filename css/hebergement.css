@@ -200,6 +200,22 @@
     
 }
 
+@media screen and (max-width: 1378px) {
 
+    .main {
+        flex-direction: column-reverse;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #hebergements {
+        align-self: center;
+        margin: auto;
+    }
+
+    #populaires {
+        width: auto;
+    }
+}
 
 
