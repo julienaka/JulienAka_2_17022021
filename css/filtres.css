@@ -76,3 +76,24 @@
     color: black;
     font-weight: bold;
 }
+
+@media screen and (max-width: 480px){
+
+    #zone_filtre :nth-child(1){
+        margin-top: 0px;
+    }
+
+    .filtres {
+        margin-left: 10px;
+    }
+
+    .filtres h2{
+        font-size: 0.9em;
+    }
+    #info {
+        font-size: 0.8em;
+    }
+
+}
+
+

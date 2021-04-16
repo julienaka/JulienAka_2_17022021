@@ -14,6 +14,7 @@ h2 {
     font-weight: bold;
     font-stretch: ultra-condensed;
     font-size: 1.3em;
+    text-transform: capitalize;
 }
 
 h3 {
@@ -164,7 +165,7 @@ input:focus {
     }
 
     header {
-        border-bottom: 2px solid #f2f2f2;
+       
         padding-bottom: 0px;
         margin-bottom: 20px;
     }
@@ -223,3 +224,4 @@ input:focus {
         border: 1px solid #0065FC;
     }
 }
+
