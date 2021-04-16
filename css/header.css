@@ -1,3 +1,4 @@
+
 body{
     font-family: "Raleway", verdana, sans-serif;
     padding: 35px 35px;
@@ -225,3 +226,71 @@ input:focus {
     }
 }
 
+/*tablette*/
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+
+    #filtres { 
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+
+.filtres {
+    display: flex;
+    align-items: center;
+    margin-top: 49px;
+    margin-left: 63px;
+    flex-wrap: wrap;
+}
+
+#populaires{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#populaires h2 {
+    margin-left: 27px;
+}
+
+.fa-chart-line {
+    
+    right: 67px;
+    margin: unset;
+    padding-top: 5px;
+}
+
+.populaires {
+    flex-wrap: wrap;
+}
+
+#hebergements {
+    width: 644px;
+}
+
+.hebergements {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+}
+
+#activites {
+    margin: auto;
+    margin-top: 44px;
+}
+
+#activites h2 {
+    text-align: center;
+}
+
+.activites { 
+    justify-content: center;
+}
+
+.activites .hotel {
+    padding: 20px
+}
+
+
+}
