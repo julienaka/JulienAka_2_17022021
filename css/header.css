@@ -18,7 +18,7 @@ h2 {
 
 h3 {
     font-weight: bold;
-    font-size: 1.2em;
+    
 }
 
 
@@ -50,6 +50,12 @@ header {
     color:#0065FC;
     text-decoration: none;
 }
+
+.logo_reservia {
+    object-fit: none;
+}
+
+
 
 nav ul li {
     list-style-type: none;
@@ -127,6 +133,7 @@ input {
     color: black;
     font-size: 1em;
     border: 0.5px solid #FFF;
+    margin-left: 20px;
 }
 
 input:focus {
