@@ -5,6 +5,11 @@ body{
     background-color: #FFF;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 h1 {
@@ -61,7 +66,7 @@ header {
 
 nav ul li {
     list-style-type: none;
-    margin-right: 50px;
+    
 }
 
 nav ul li:nth-child(3) {
@@ -72,12 +77,23 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+.element_menu:hover{
+    border-top: 2px solid #0065FC;
+    
+   
+}
+
+nav li {
+    width: 10em;
+    text-align: center;
+    padding-top: 2em;
+}
+
 
 /* menu animation */
 
 nav ul li a:hover {
-    border-top: 2px solid #0065FC;
-    padding-top: 40px;
+   
     color:#0065FC;
 }
 
