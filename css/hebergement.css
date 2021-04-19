@@ -210,6 +210,9 @@
     #hebergements {
         align-self: center;
         margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
     }
 
     
