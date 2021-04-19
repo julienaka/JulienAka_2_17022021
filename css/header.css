@@ -172,10 +172,9 @@ input:focus {
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        background-color: #ddd;
-    }
+    
 
+    
     h1 {
         margin-top: 0px;;
     }
@@ -245,68 +244,64 @@ input:focus {
         font-weight: bold;
         border: 1px solid #0065FC;
     }
+
 }
 
 /*tablette*/
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
 
-    #filtres { 
-        width: 100%;
-        margin-bottom: 15px;
+    #hebergements {
+        flex-direction: column-reverse;
+        align-items: center;
+        flex-wrap: nowrap;
     }
 
+    #populaires {
+        margin: auto;
+        width: 80%;
+    }
 
-.filtres {
-    display: flex;
-    align-items: center;
-    margin-top: 49px;
-    margin-left: 63px;
-    flex-wrap: wrap;
-}
+    #populaires h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }
 
-#populaires{
-    display: flex;
-    flex-wrap: wrap;
-}
+    .populiares{
+        padding: 0px;
+        width: 70%;
+    }
 
-#populaires h2 {
-    margin-left: 27px;
-}
+    .populaires h2 {
+        padding-left: 30px;
+        margin-top: 20px;
+    }
 
-.fa-chart-line {
-    
-    right: 67px;
-    margin: unset;
-    padding-top: 5px;
-}
+    section{
+        width: 70%;
+        margin-top:30px;
+        margin: auto;
+    }
 
-.populaires {
-    flex-wrap: wrap;
-}
+    #activites {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
 
-#hebergements {
-    width: 644px;
-}
+    .duo_activites{
+        width: 80%;
+        justify-content: flex-start;
+    }
 
+    .footer_menu{
+        margin-bottom: 0px;
+        margin-left: 30px;
+    }
 
-
-#activites {
-    margin: auto;
-    margin-top: 44px;
-}
-
-#activites h2 {
-    text-align: center;
-}
-
-.activites { 
-    justify-content: center;
-}
-
-.activites .hotel {
-    padding: 20px
-}
-
+    footer ul li {
+        font-size: 0.8em;
+    }
 
 }
