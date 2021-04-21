@@ -25,6 +25,7 @@ h2 {
 
 h3 {
     font-weight: bold;
+    font-size: medium;
     
 }
 
@@ -247,61 +248,3 @@ input:focus {
 
 }
 
-/*tablette*/
-
-@media screen and (min-width: 480px) and (max-width: 1024px) {
-
-    #hebergements {
-        flex-direction: column-reverse;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-
-    #populaires {
-        margin: auto;
-        width: 80%;
-    }
-
-    #populaires h2{
-    margin-bottom: 0px;
-    margin-top: 0px;
-    }
-
-    .populiares{
-        padding: 0px;
-        width: 70%;
-    }
-
-    .populaires h2 {
-        padding-left: 30px;
-        margin-top: 20px;
-    }
-
-    section{
-        width: 70%;
-        margin-top:30px;
-        margin: auto;
-    }
-
-    #activites {
-        flex-direction: column;
-        justify-content: flex-start;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
-
-    .duo_activites{
-        width: 80%;
-        justify-content: flex-start;
-    }
-
-    .footer_menu{
-        margin-bottom: 0px;
-        margin-left: 30px;
-    }
-
-    footer ul li {
-        font-size: 0.8em;
-    }
-
-}

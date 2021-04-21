@@ -31,29 +31,3 @@ footer ul li a {
     font-size: 1em;
 }
 
-@media screen and (max-width: 480px) {
-
-    footer {
-        padding-top: 20px;
-        width: 100%;
-        margin-left: 0px;
-    }
-
-    #container_footer {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-left: 20px;
-    }
-
-    .footer_menu {
-        margin-bottom: 0px;
-        margin-left: 20px;
-        font-size: 0.8em;
-        line-height: 10px;
-    }
-
-    footer ul li {
-        font-size: 0.8em;
-    }
-}
