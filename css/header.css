@@ -63,32 +63,28 @@ header {
     object-fit: none;
 }
 
-
-
-nav ul li {
-    list-style-type: none;
-    
+nav li{
+	width: 12em;
+	text-align: center;
+	padding-top: 2em;
+	margin-right: -0.2em;
+	margin-left: -0.2em;
 }
 
-nav ul li:nth-child(3) {
-    font-weight: bold;
+nav ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	width: auto;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
 .element_menu:hover{
     border-top: 2px solid #0065FC;
     
    
 }
 
-nav li {
-    width: 10em;
-    text-align: center;
-    padding-top: 2em;
-}
+
 
 .sinscrire{
     color:#0065FC;
@@ -170,81 +166,5 @@ input:focus {
     text-align: center;
     font-size: 1.3em;
     padding-top: 15px;
-}
-
-@media screen and (max-width: 480px) {
-    
-
-    
-    h1 {
-        margin-top: 0px;;
-    }
-
-    #menu {
-        margin-top: 30px;
-    }
-
-    header {
-        border-bottom: 2px solid #f2f2f2;
-        padding-bottom: 0px;
-        margin-bottom: 20px;
-    }
-
-    nav ul {
-        padding-left: 0px;
-    }
-
-    .element_menu:nth-child(2) {
-        margin-left: 70px;
-    }
-
-    .element_menu:nth-child(3) {
-        display: none;
-    }
-
-    #inscription {
-        display: block;
-    }
-    .sinscrire{
-        display: none;
-    }
-    nav ul li a:hover {
-        border-bottom: 2px solid #0065FC;
-        border-top: none;
-        padding-bottom: 20px;
-    }
-
-    #bouton {
-        display: none;
-    }
-
-    #logo_search {
-        display: block;
-        transform: translateX(-40px);
-        background-color: #0065FC;
-        border-radius: 15px;
-        height: 70%;
-        width: 52px;
-        margin-left: 0px;
-        text-align: center;
-        padding-top: 15px;
-        color: white;
-        font-size: 1.2em;
-    }
-
-    #logo_search:hover {
-        cursor:pointer;
-        background-color: #DEEBFF;
-        color: black;
-    }
-
-    #logo_search:active {
-        cursor:pointer;
-        background-color: #DEEBFF;
-        color: #0065FC;
-        font-weight: bold;
-        border: 1px solid #0065FC;
-    }
-
 }
 
