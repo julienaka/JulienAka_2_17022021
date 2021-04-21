@@ -30,8 +30,8 @@
         margin-bottom: 20px;
     }
 
-/*
 
+/*
      nav ul li a:hover {
         border-bottom: 2px solid #0065Fc;
         border-top: none;
@@ -170,19 +170,31 @@
 
 @media screen and (max-width: 780px) {
     
-.element_menu:nth-child(1), .element_menu:nth-child(2) {
+    header{
+		display: block;
+		margin-bottom: 2em;
+	}
+
+.element_menu {
     width: 50%;
     padding-bottom: 1.5em;
-    border-bottom: solid 2px #0065Fc;
+    border-bottom: solid 2px #f2f2f2;
 }
 
-.element_menu:nth-child(3) {
+.element_menu1 {
 
     position: absolute ;
     top: 0.5em;
     right: 0.5em;
 
 
+}
+
+.element_menu:hover{
+    
+    border-bottom: 2px solid #0065FC;
+    
+   
 }
 
 nav ul{
@@ -201,6 +213,12 @@ nav li{
 
 @media screen and (max-width: 1280px) {
 
+    .element_menu:hover {
 
+        border-top: 2px solid #0065FC;
+        
+       
+    }
+    
 
 }
