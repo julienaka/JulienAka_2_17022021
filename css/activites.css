@@ -79,37 +79,3 @@ img {
 }
 
 
-@media screen and (max-width: 480px) {
-
-    #activites {
-        margin-top: 12px;
-    }
-
-    #activites h2 {
-        text-align: unset;
-        margin-left: 21px;
-    }
-
-    .activites .hotel {
-        padding: 12px;
-    }
-
-    .activites .hotel img{
-        height: 134px;
-        width: 334px;
-    }
-
-    .activites .hotel.frioul img {
-        max-height: unset;
-    }
-}
-
-
-
-
-
-    
-
-
-   
-
