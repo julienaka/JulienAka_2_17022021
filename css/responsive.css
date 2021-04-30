@@ -15,6 +15,12 @@
         margin-top: 0px;
     }
 
+    h3 {
+        font-weight: bold;
+    }
+
+   
+
     main {
         background-color: #fff;
         padding: 15px 15px;
@@ -43,7 +49,6 @@
 
     #logo_search {
         display: block;
-        transform: translateX(-40px);
         background-color: #0065Fc;
         border-radius: 15px;
         height: 70%;
@@ -68,7 +73,10 @@
         font-weight: bold;
         border: 1px solid #0065Fc;
     }
-
+    
+    input {
+        width: 47% ;
+    }
     #zone_filtre :nth-child(1) {
         margin-top: 0px;
     }
@@ -96,7 +104,7 @@
         background-color: white;
         height: auto;
         border-radius: 20px;
-        margin-right: 40px;
+        margin: 0;
     }
 
     #hebergements h2 {
@@ -110,6 +118,14 @@
 
     .hebergements {
         flex-direction: column;
+    }
+
+    .hebergements .hotel {
+        width: 96%;
+    }
+
+    .hebergements .hotel img {
+        width: 100%;
     }
 
    
@@ -140,7 +156,12 @@
         background-color: white;
         height: auto;
         border-radius: 20px;
-        margin-right: 40px;
+        margin: 0;
+    }
+
+    .activites .photo img {
+        width: 100%;
+        height: unset;
     }
 
     .main {
@@ -209,6 +230,10 @@
 		margin-bottom: 2em;
 	}
 
+    h4 {
+        width: 100%;
+    }
+
     
     .element_menu {
     width: 50%;
@@ -226,36 +251,37 @@
 
     }
 
-.element_menu:hover{
+    .element_menu:hover{
     
     border-bottom: 2px solid #0065FC;
     
    
 }
 
-nav ul{
+    nav ul{
     margin: 0;
     padding: 0;
     justify-content: flex-start;
     width: auto;
 
 }
-nav li{
+    nav li{
     margin: 0;
 }
 
 
 
-#hebergements {
+    #hebergements {
     width: auto;
     padding: 0px;
     background-color: white;
     height: auto;
     border-radius: 20px;
-    margin-right: 40px;
+    margin: 0;
+    
 }
 
-#populaires {
+    #populaires {
     width: auto;
     padding: 0px;
     height: auto;
@@ -266,13 +292,13 @@ nav li{
     align-items: center;
 }
 
-#activites{
+    #activites{
     width: auto; 
     padding: 0px;
     background-color: white;
     height: auto;
     border-radius: 20px;
-    margin-right: 40px;
+    margin: 0;
 }
 
     #container_footer {

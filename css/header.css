@@ -83,6 +83,7 @@ nav ul{
 
 .sinscrire{
     color:#0065FC;
+    font-weight:  bold;
     
 }
 
@@ -143,7 +144,7 @@ nav ul li a:hover {
 
 input {
     height: 93%;
-    width: 230px;
+    width: 64%;
     color: black;
     font-size: 1em;
     border: 0.5px solid #FFF;
