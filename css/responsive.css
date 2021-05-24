@@ -150,19 +150,9 @@
         width: 334px;
     }
 
-    #activites{
-        width: auto;
-        padding: 0px;
-        background-color: white;
-        height: auto;
-        border-radius: 20px;
-        margin: 0;
-    }
+   
 
-    .activites .photo img {
-        width: 100%;
-        height: unset;
-    }
+    
 
     .main {
         flex-direction: column-reverse;
@@ -203,6 +193,7 @@
 
 @media screen and (max-width: 780px) {
     
+    
     body {
         background-color: #ddd;
         max-width: 1440px;
@@ -234,6 +225,10 @@
         width: 100%;
     }
 
+    .activites .photo img {
+        width: 100%;
+        height: 110px;
+    }
     
     .element_menu {
     width: 50%;
@@ -260,7 +255,7 @@
 
     nav ul{
     margin: 0;
-    padding: 0;
+    border-radius: unset;
     justify-content: flex-start;
     width: auto;
 
@@ -291,18 +286,16 @@
     align-items: center;
 }
 
-    #activites{
-    width: auto; 
-    padding: 0px;
-    background-color: white;
-    height: auto;
-    border-radius: 20px;
-    margin: 0;
-}
+    
 
     #container_footer {
         padding: 0px;
     }
+    .activites{
+		display: block;
+		margin: 0;
+		margin-bottom: 2.5em; 
+	}
 }
 
 
@@ -314,6 +307,12 @@
         
        
     }
-    
+    .trio {
+        display: block;
+    }
 
+    .duo_activites {
+        display: block;
+    }
+    
 }
